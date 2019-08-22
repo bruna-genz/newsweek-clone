@@ -1,5 +1,5 @@
 # newsweek-clone
-This project was created as part of [Microverse](https://www.microverse.org/) course.
+This project was created as part of the [Microverse](https://www.microverse.org/) course.
 The goal was to clone the [Newsweek](https://www.newsweek.com/) homepage, using Bootstrap.
 
 This page was created using:
