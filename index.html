@@ -10,49 +10,67 @@
   <body>
 <!--      HEADER        -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="navbar-nav header-date"></div>
-      <div class="navbar-brand"></div>
+      <div class="navbar-nav header-date">Fri, Aug 23, 2019</div>
+      <div class="navbar-brand">Newsweek</div>
       <div class="navbar-brand">
-        <a href="#" class="singin-link"></a>
-        <a href="#" class="subscribe-link"></a>
+        <a href="#" class="signin-link">SIGN IN</a>
+        <a href="#" class="subscribe-link">SUBSCRIBE <i class="fas fa-chevron-right"></i></a>
       </div>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-        <a class="navbar-brand" href="#">Hidden brand</a>
         <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="#">U.S.
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
+            <a class="nav-link" href="#">World</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+           <li class="nav-item">
+            <a class="nav-link" href="#">Business</a>
+          </li>
+           <li class="nav-item">
+            <a class="nav-link" href="#">Tech & Science</a>
+          </li>
+           <li class="nav-item">
+            <a class="nav-link" href="#">Culture</a>
+          </li>
+           <li class="nav-item">
+            <a class="nav-link" href="#">Newsgeek</a>
+          </li>
+           <li class="nav-item">
+            <a class="nav-link" href="#">Sports</a>
+          </li>
+           <li class="nav-item">
+            <a class="nav-link" href="#">Health</a>
+          </li>
+           <li class="nav-item">
+            <a class="nav-link" href="#">Opinion</a>
+          </li>
+           <li class="nav-item">
+            <a class="nav-link" href="#">Vantage</a>
           </li>
         </ul>
         <form class="form-inline my-2 my-lg-0">
           <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          <i class="fas fa-search"></i>
         </form>
       </div>
     </nav>
 <!--      MAIN       -->
-    <main class="container-fluid">
+    <main class="container-fluid mx-auto">
 <!--      FEATURED STORIES       -->
       <div class="row">
         <div class="col-4 col-lg-3 bg-primary">
           <section class="ft-stories">
             <h3 class="section-title"></h3>
             <div class="container">
-              <article class="ft-article-1">
-                <div>
-                  <img src="" alt="">
-                </div>
-                <div>
-                  <h2 class="article-title-big"></h2>
-                  <p></p>
+              <article class="card ft-article-1">
+                <img class="card-img-top" src="https://d.newsweek.com/en/full/1511786/newsweek-momentum-awards-2019.png?w=397&h=265&q=90&f=b5bee11f8b144487ff291880f4d318be" alt="N/A" >
+                <div class="card-body"> 
+                  <h2 class="card-title article-title-big"><a href="#">The Newsweek Momentum Awards</a></h2>
+                  <p card-text>The Newsweek Momentum Awards will recognize five individuals around the globe, as well as one city, which will be chosen as the "smartest city in the world."</p>
                 </div>
               </article>
               <article class="ft-article-2">
@@ -88,7 +106,7 @@
 <!--      TOP STORY       -->
         <div class="col-8 col-lg-9 bg-secondary">
           <div class="row">
-            <div class="col-7 col-lg-12 bg-secondary container-center">
+            <div class="col-12 col-lg-8 bg-secondary container-center">
               <section class="top-story-section">
                 <h3 class="section-title"></h3>
                 <div class="container">
@@ -230,7 +248,7 @@
             </div>
           </section>
 <!--      OPINION             -->
-          <div class="col-5 col-lg-12 bg-primary container-right">
+          <div class="col-12 col-lg-4 bg-info container-right">
             <section class="opinion">
               <h2 class="section-title"></h2>
               <div class="container">
@@ -897,6 +915,7 @@
 
 <!-- TODO: Subscribe big and newsletter -->
       <footer></footer>
-    
+  
+  <script src="/js/all.min.js"></script>
   </body>
 </html>

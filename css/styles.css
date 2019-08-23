@@ -1,7 +1,4 @@
-header {
-    background: grey;
+main {
+    max-width: 1310px;
 }
 
-.navbar {
-    background: blue;
-}
