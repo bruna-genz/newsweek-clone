@@ -3,39 +3,39 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="/css/styles.css">
     <link rel="stylesheet" href="/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <title>Newsweek clone</title>
   </head>
   <body>
 <!--      HEADER        -->
-    <header>
-      <div class="container">
-        <div class="header-date"></div>
-        <div class="nw-log"></div>
-        <div>
-          <a href="#" class="singin-link"></a>
-          <a href="#" class="subscribe-link"></a>
-        </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="navbar-nav header-date"></div>
+      <div class="navbar-brand"></div>
+      <div class="navbar-brand">
+        <a href="#" class="singin-link"></a>
+        <a href="#" class="subscribe-link"></a>
       </div>
-    </header>
-<!--      NAVBAR       -->
-    <nav class="navbar">
-      <div class="navbar-links">
-        <ul>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+        <a class="navbar-brand" href="#">Hidden brand</a>
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+          </li>
         </ul>
-      </div>
-      <div class="search-box">
-        <input type="text" name="search-box" id="search-box" placeholder="Search">
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
       </div>
     </nav>
 <!--      MAIN       -->
