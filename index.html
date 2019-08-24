@@ -9,19 +9,21 @@
   </head>
   <body>
 <!--      HEADER        -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="navbar-nav header-date">Fri, Aug 23, 2019</div>
-      <div class="navbar-brand">Newsweek</div>
-      <div class="navbar-brand">
-        <a href="#" class="signin-link">SIGN IN</a>
-        <a href="#" class="subscribe-link">SUBSCRIBE <i class="fas fa-chevron-right"></i></a>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light d-flex flex-column p-0">
+      <div class="header d-flex justify-content-between aling-items-end px-lg-3 pt-lg-2 pb-lg-2 pt-2 pb-3 px-3 ">
+        <p class="navbar-nav header-date mr-5 mb-0 px-0 d-none d-lg-block">Fri, Aug 23, 2019</p>
+        <div class="navbar-brand mr-lg-5 p-0">Newsweek</div>
+        <div class="justify-self-end align-self-end">
+          <a href="#" class="signin-link text-white mr-2">SIGN IN</a>
+          <button class="subscribe-btn border-0 bg-light px-2 text-danger">SUBSCRIBE <i class="fas fa-chevron-right"></i></button>
+          <button class="navbar-toggler d-xl-none border-0 p-0 ml-3" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
       </div>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+      <div class="collapse navbar-collapse position-relative w-100" id="navbarTogglerDemo01">
         <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-          <li class="nav-item active">
+          <li class="nav-item w-25">
             <a class="nav-link" href="#">U.S.
           </li>
           <li class="nav-item">
@@ -62,7 +64,7 @@
     <main class="container-fluid mx-auto">
 <!--      FEATURED STORIES       -->
       <div class="row">
-        <div class="col-5 col-lg-3">
+        <div class="col-5 col-lg-3 position-relative left-column">
           <h4 class="section-title">FEATURED STORIES</h4>
           <article class="card border-0">
             <img class="card-img-top" src="https://d.newsweek.com/en/full/1511786/newsweek-momentum-awards-2019.png?w=397&h=265&q=90&f=b5bee11f8b144487ff291880f4d318be" alt="N/A" >
@@ -94,289 +96,291 @@
           </article>
         </div> 
 <!--      TOP STORY       -->
-        <div class="col-7 col-lg-9">
+        <div class="col-7 col-lg-6 overflow-auto center-column">
           <div class="row">
-            <div class="col-12 col-lg-8 container-center">
-                <h4 class="section-title">TOP STORY</h4>
-                <article class="card border-0 top-story">
-                  <img class="card-img-top" src="https://d.newsweek.com/en/full/1522471/president-jair-bolsonaro.jpg?w=591&h=364&q=90&f=22efdeab80619e5f50df3be674c4b733" alt="N/A">
-                  <div class="card-body pr-0 pl-0">
-                    <h3 class="card-title article-title-big"><a href="#">Bolsonaro Hits Back at Macron After Calls for Amazon Fires to Top G7 Agenda</a></h3>
-                    <p class="card-text">"I regret that president Macron seeks to take advantage of what is a domestic Brazilian issue and of other Amazonian countries for personal political gain," President Jair Bolsonaro tweeted.</p>
-                  </div>
-                </article>       
+            <div class="col-12 col-lg-12">
+              <h4 class="section-title">TOP STORY</h4>
+              <article class="card border-0 top-story">
+                <img class="card-img-top" src="https://d.newsweek.com/en/full/1522471/president-jair-bolsonaro.jpg?w=591&h=364&q=90&f=22efdeab80619e5f50df3be674c4b733" alt="N/A">
+                <div class="card-body pr-0 pl-0">
+                  <h3 class="card-title article-title-big"><a href="#">Bolsonaro Hits Back at Macron After Calls for Amazon Fires to Top G7 Agenda</a></h3>
+                  <p class="card-text">"I regret that president Macron seeks to take advantage of what is a domestic Brazilian issue and of other Amazonian countries for personal political gain," President Jair Bolsonaro tweeted.</p>
+                </div>
+              </article>
+            </div>       
 <!--      CULTURE AND TRAVEL       -->
-              <div class="culture">
-                <h4 class="section-title">CULTURE & TRAVEL</h4>
-                <div class="row">
-                  <article class="col-6 card border-0">
-                    <img class="card-img-top" src="https://d.newsweek.com/en/full/1522008/ambassade-dauvergne.jpg?w=397&h=265&f=9859edf85099dd6e6b3502400e9117ad" alt="N/A">
-                    <div class="card-body pr-0 pl-0">
-                      <h3 class="card-title article-title-big"><a href="#">7 Best Restaurants in Le Marais in Paris</a></h3>
-                      <p class="card-text">Choosing where to eat in Paris' Marais district can be touch and go - unless you know where to look.</p>
-                      <a class="badge badge-secondary" href="#">Paris</a>
-                    </div>
-                  </article>
-                  <article class="col-6 card border-0">
-                    <img class="card-img-top" src="https://d.newsweek.com/en/full/1522501/pretty-skin.jpg?w=397&h=265&f=9864a898856328da142b5678ad5de37f" alt="N/A">
-                    <div class="card-body pr-0 pl-0">
-                      <h3 class="card-title article-title-big"><a href="#">How to Keep Your Summer Skin Glowing Past Labor Day</a></h3>
-                      <p class="card-text">Back to work often means back to dull skin - but not anymore. Famed skincare maven Dr. Jon Turk tells us how to keep our skin refreshed and glowing.</p>
-                      <a href="#">Beauty</a>
-                    </div>
-                  </article>
-                  <div class="w-100"></div>
-                  <article class="col-6 card border-0">
-                    <img class="card-img-top" src="https://d.newsweek.com/en/full/1521237/cul-map-ruins-01-177513522.jpg?w=397&h=265&f=e4c69b78fc5e3487135cbc049388081d" alt="N/A">
-                    <div class="card-body pr-0 pl-0">
-                      <h3 class="card-title article-title-big"><a href="#">Lesser-Known Ruins of the Ancient World</a></h3>
-                      <p class="card-text">While most everyone is familiar with Angkor Wat, Petra or Rome's Colosseum, it is sometimes the overlooked cities—once megalopolises now in disrepair—that tell a more potent story.</p>
-                      <a href="#">Travel</a>
-                    </div>
-                  </article>
-                  <article class="col-6 card border-0 ">
-                    <img class="card-img-top" src="https://d.newsweek.com/en/full/1521888/winthrop-great-alone.jpg?w=397&h=265&f=40940d5177a0d2336240e6e4f6b98c66" alt="N/A">
-                    <div class="card-body pr-0 pl-0">
-                      <h3 class="card-title article-title-big"><a href="#">The Great Alone: Walking the Pacific Crest Trail</a></h3>
-                      <p class="card-text">Tim Voors walked the entire length of America in a 2,650 mile hike from Mexico to Canada - here's why.</p>
-                      <a href="#">Hiking</a>
-                    </div>
-                  </article>
+            <div class="culture">
+              <h4 class="section-title">CULTURE & TRAVEL</h4>
+              <div class="row">
+                <article class="col-6 card border-0">
+                  <img class="card-img-top" src="https://d.newsweek.com/en/full/1522008/ambassade-dauvergne.jpg?w=397&h=265&f=9859edf85099dd6e6b3502400e9117ad" alt="N/A">
+                  <div class="card-body pr-0 pl-0">
+                    <h3 class="card-title article-title-big"><a href="#">7 Best Restaurants in Le Marais in Paris</a></h3>
+                    <p class="card-text">Choosing where to eat in Paris' Marais district can be touch and go - unless you know where to look.</p>
+                    <a class="badge badge-secondary" href="#">Paris</a>
+                  </div>
+                </article>
+                <article class="col-6 card border-0">
+                  <img class="card-img-top" src="https://d.newsweek.com/en/full/1522501/pretty-skin.jpg?w=397&h=265&f=9864a898856328da142b5678ad5de37f" alt="N/A">
+                  <div class="card-body pr-0 pl-0">
+                    <h3 class="card-title article-title-big"><a href="#">How to Keep Your Summer Skin Glowing Past Labor Day</a></h3>
+                    <p class="card-text">Back to work often means back to dull skin - but not anymore. Famed skincare maven Dr. Jon Turk tells us how to keep our skin refreshed and glowing.</p>
+                    <a href="#">Beauty</a>
+                  </div>
+                </article>
+                <div class="w-100"></div>
+                <article class="col-6 card border-0">
+                  <img class="card-img-top" src="https://d.newsweek.com/en/full/1521237/cul-map-ruins-01-177513522.jpg?w=397&h=265&f=e4c69b78fc5e3487135cbc049388081d" alt="N/A">
+                  <div class="card-body pr-0 pl-0">
+                    <h3 class="card-title article-title-big"><a href="#">Lesser-Known Ruins of the Ancient World</a></h3>
+                    <p class="card-text">While most everyone is familiar with Angkor Wat, Petra or Rome's Colosseum, it is sometimes the overlooked cities—once megalopolises now in disrepair—that tell a more potent story.</p>
+                    <a href="#">Travel</a>
+                  </div>
+                </article>
+                <article class="col-6 card border-0 ">
+                  <img class="card-img-top" src="https://d.newsweek.com/en/full/1521888/winthrop-great-alone.jpg?w=397&h=265&f=40940d5177a0d2336240e6e4f6b98c66" alt="N/A">
+                  <div class="card-body pr-0 pl-0">
+                    <h3 class="card-title article-title-big"><a href="#">The Great Alone: Walking the Pacific Crest Trail</a></h3>
+                    <p class="card-text">Tim Voors walked the entire length of America in a 2,650 mile hike from Mexico to Canada - here's why.</p>
+                    <a href="#">Hiking</a>
+                  </div>
+                </article>
               </div>
+            </div>
 <!--      MORE STORIES       -->
-              <div class="more-stories">
-                <h4 class="section-title">MORE STORIES</h4>
-                <article class="card border-0">
-                  <div class="row no-gutters">
-                    <div class="col-auto">
-                      <img src="https://d.newsweek.com/en/full/1522405/donald-trump.jpg?w=135&h=90&f=b31b65f263fe51a2bf8d453c908d89e6" alt="N/A">
-                    </div>
-                    <div class="col">
-                      <div class="card-body pt-0">
-                        <h6 class="card-title article-title-sm"><a href="#">Is Trump's 'Narcissism' the Biggest Threat to the Global Economy?</a></h6>
-                        <p class="card-text">A former National Economic Council director told The Washington Post that the president himself is the "most significant economic risk factor."</p>
-                      </div>
-                    </div>
+            <div class="more-stories">
+              <h4 class="section-title">MORE STORIES</h4>
+              <article class="card border-0">
+                <div class="row no-gutters">
+                  <div class="col-auto">
+                    <img src="https://d.newsweek.com/en/full/1522405/donald-trump.jpg?w=135&h=90&f=b31b65f263fe51a2bf8d453c908d89e6" alt="N/A">
                   </div>
-                </article>
-                <article class="card border-0">
-                  <div class="row no-gutters">
-                    <div class="col-auto">
-                      <img src="https://d.newsweek.com/en/full/1522414/china-hong-kong-cathay-union-sacked.jpg?w=135&h=90&f=484c2f9b825a66e664a576bf90987459" alt="N/A">
-                    </div>
-                    <div class="col">
-                      <div class="card-body pt-0">
-                        <h6 class="card-title article-title-sm"><a href="#">Cathay Pacific Union Head Fired for Facebook Posts Amid Hong Kong Protests</a></h6>
-                        <p class="card-text">China's aviation regulator has been pressuring Cathay Pacific to fire staff who express support for, or have been involved in, the recent anti-Beijing protests.</p>
-                      </div>
+                  <div class="col">
+                    <div class="card-body pt-0">
+                      <h6 class="card-title article-title-sm"><a href="#">Is Trump's 'Narcissism' the Biggest Threat to the Global Economy?</a></h6>
+                      <p class="card-text">A former National Economic Council director told The Washington Post that the president himself is the "most significant economic risk factor."</p>
                     </div>
                   </div>
-                </article>
-                <article class="card border-0">
-                  <div class="row no-gutters">
-                    <div class="col-auto">
-                      <img src="https://d.newsweek.com/en/full/1522515/chris-murphy-background-checks.jpg?w=135&h=90&f=477bdeecd96fd1a3e1e8058bbd2fc6b2" alt="N/A">
-                    </div>
-                    <div class="col">
-                      <div class="card-body pt-0">
-                        <h6 class="card-title article-title-sm"><a href="#">Why Chris Murphy Isn't Holding His Breath for Increased Background Checks</a></h6>
-                        <p class="card-text">The Connecticut senator gave his take on what some call President Donald Trump's ever-changing stance on gun reform.</p>
-                      </div>
-                    </div>
+                </div>
+              </article>
+              <article class="card border-0">
+                <div class="row no-gutters">
+                  <div class="col-auto">
+                    <img src="https://d.newsweek.com/en/full/1522414/china-hong-kong-cathay-union-sacked.jpg?w=135&h=90&f=484c2f9b825a66e664a576bf90987459" alt="N/A">
                   </div>
-                </article>
-                <article class="card border-0">
-                  <div class="row no-gutters">
-                    <div class="col-auto">
-                      <img src="https://d.newsweek.com/en/full/1522480/amazon-rainforest-protests.jpg?w=135&h=90&f=e5900321a3987f3757a0763bc6d49781" alt="N/A">
-                    </div>
-                    <div class="col">
-                      <div class="card-body pt-0">
-                        <h6 class="card-title article-title-sm"><a href="#">Protesters Hit Streets Across the World as Amazon Rainforests Burn</a></h6>
-                        <p class="card-text">Recently released figures from Brazil's National Institute for Space Research showed an 83 percent increase in fire outbreaks in Brazil in comparison to the same period in 2018.</p>
-                      </div>
+                  <div class="col">
+                    <div class="card-body pt-0">
+                      <h6 class="card-title article-title-sm"><a href="#">Cathay Pacific Union Head Fired for Facebook Posts Amid Hong Kong Protests</a></h6>
+                      <p class="card-text">China's aviation regulator has been pressuring Cathay Pacific to fire staff who express support for, or have been involved in, the recent anti-Beijing protests.</p>
                     </div>
                   </div>
-                </article>
-                <article class="card border-0">
-                  <div class="row no-gutters">
-                    <div class="col-auto">
-                      <img src="https://d.newsweek.com/en/full/1522413/loggerhead-turtle.jpg?w=135&h=90&f=fbc8ef7f62f8cba5b6e10e561c0d730f" alt="N/A">
-                    </div>
-                    <div class="col">
-                      <div class="card-body pt-0">
-                        <h6 class="card-title article-title-sm"><a href="#">Environmental Groups Sue Trump Administration Over Endangered Species Act</a></h6>
-                        <p class="card-text">Earlier this month, the Trump administration finalized changes to a set of regulations which would diminish the protections afforded to threatened species.</p>
-                      </div>
-                    </div>
+                </div>
+              </article>
+              <article class="card border-0">
+                <div class="row no-gutters">
+                  <div class="col-auto">
+                    <img src="https://d.newsweek.com/en/full/1522515/chris-murphy-background-checks.jpg?w=135&h=90&f=477bdeecd96fd1a3e1e8058bbd2fc6b2" alt="N/A">
                   </div>
-                </article>
-                <article class="card border-0">
-                  <div class="row no-gutters">
-                    <div class="col-auto">
-                      <img src="https://d.newsweek.com/en/full/1522453/russia-missile-radiation-doctor.jpg?w=135&h=90&f=66b2596cb20d9762deebd6c0117c4b81" alt="N/A">
-                    </div>
-                    <div class="col">
-                      <div class="card-body pt-0">
-                        <h6 class="card-title article-title-sm"><a href="#">Russian Missile Accident: Medical Staff Not Warned About Nuclear Radiation</a></h6>
-                        <p class="card-text">The explosion killed at least five people and is believed to have involved a new nuclear-powered cruise missile.</p>
-                      </div>
+                  <div class="col">
+                    <div class="card-body pt-0">
+                      <h6 class="card-title article-title-sm"><a href="#">Why Chris Murphy Isn't Holding His Breath for Increased Background Checks</a></h6>
+                      <p class="card-text">The Connecticut senator gave his take on what some call President Donald Trump's ever-changing stance on gun reform.</p>
                     </div>
                   </div>
-                </article>
-                <article class="card border-0">
-                  <div class="row no-gutters">
-                    <div class="col-auto">
-                      <img src="https://d.newsweek.com/en/full/1522457/border-patrol-agent-asylum-seekers-texas.jpg?w=135&h=90&f=deae369132d9d70f4a52e7d9e1eaa448" alt="N/A">
-                    </div>
-                    <div class="col">
-                      <div class="card-body pt-0">
-                        <h6 class="card-title article-title-sm"><a href="#">Trump Official Says Plan to Detain Migrant Families Will Deter Immigration</a></h6>
-                        <p class="card-text">The new rule erases the guidelines set by the 1997 Flores Settlement Agreement, which required the government to keep migrant kids in the least restrictive setting possible.</p>
-                      </div>
-                    </div>
+                </div>
+              </article>
+              <article class="card border-0">
+                <div class="row no-gutters">
+                  <div class="col-auto">
+                    <img src="https://d.newsweek.com/en/full/1522480/amazon-rainforest-protests.jpg?w=135&h=90&f=e5900321a3987f3757a0763bc6d49781" alt="N/A">
                   </div>
-                </article>
-                <article class="card border-0">
-                  <div class="row no-gutters">
-                    <div class="col-auto">
-                      <img src="https://d.newsweek.com/en/full/1522459/shark-surfers.jpg?w=135&h=90&f=4ce73fc5673b8992faae2b8a1cf54471" alt="N/A">
-                    </div>
-                    <div class="col">
-                      <div class="card-body pt-0">
-                        <h6 class="card-title article-title-sm"><a href="#">Drone Captures Great White Sharks Circling Oblivious Surfers</a></h6>
-                        <p class="card-text">"I was freaking out. I was like, 'He has no idea there's a shark right next to them," said photographer Matt Larmand.</p>
-                      </div>
+                  <div class="col">
+                    <div class="card-body pt-0">
+                      <h6 class="card-title article-title-sm"><a href="#">Protesters Hit Streets Across the World as Amazon Rainforests Burn</a></h6>
+                      <p class="card-text">Recently released figures from Brazil's National Institute for Space Research showed an 83 percent increase in fire outbreaks in Brazil in comparison to the same period in 2018.</p>
                     </div>
                   </div>
-                </article>
-              </div>
-<!--      OPINION             -->
-          <div class="col-12 col-lg-4 bg-info container-right">
-            <section class="opinion">
-              <h2 class="section-title"></h2>
-              <div class="container">
-                <article class="op-article-1">
-                  <div>
-                    <img src="" alt="">
+                </div>
+              </article>
+              <article class="card border-0">
+                <div class="row no-gutters">
+                  <div class="col-auto">
+                    <img src="https://d.newsweek.com/en/full/1522413/loggerhead-turtle.jpg?w=135&h=90&f=fbc8ef7f62f8cba5b6e10e561c0d730f" alt="N/A">
                   </div>
-                  <div>
-                    <h4 class="article-title-sm"></h4>
-                    <p class="author"></p>
+                  <div class="col">
+                    <div class="card-body pt-0">
+                      <h6 class="card-title article-title-sm"><a href="#">Environmental Groups Sue Trump Administration Over Endangered Species Act</a></h6>
+                      <p class="card-text">Earlier this month, the Trump administration finalized changes to a set of regulations which would diminish the protections afforded to threatened species.</p>
+                    </div>
                   </div>
-                </article>
-                <article class="op-article-2">
-                  <div>
-                    <img src="" alt="">
+                </div>
+              </article>
+              <article class="card border-0">
+                <div class="row no-gutters">
+                  <div class="col-auto">
+                    <img src="https://d.newsweek.com/en/full/1522453/russia-missile-radiation-doctor.jpg?w=135&h=90&f=66b2596cb20d9762deebd6c0117c4b81" alt="N/A">
                   </div>
-                  <div>
-                    <h4 class="article-title-sm"></h4>
-                    <p class="author"></p>
+                  <div class="col">
+                    <div class="card-body pt-0">
+                      <h6 class="card-title article-title-sm"><a href="#">Russian Missile Accident: Medical Staff Not Warned About Nuclear Radiation</a></h6>
+                      <p class="card-text">The explosion killed at least five people and is believed to have involved a new nuclear-powered cruise missile.</p>
+                    </div>
                   </div>
-                </article>
-                <article class="op-article-3">
-                  <div>
-                    <img src="" alt="">
+                </div>
+              </article>
+              <article class="card border-0">
+                <div class="row no-gutters">
+                  <div class="col-auto">
+                    <img src="https://d.newsweek.com/en/full/1522457/border-patrol-agent-asylum-seekers-texas.jpg?w=135&h=90&f=deae369132d9d70f4a52e7d9e1eaa448" alt="N/A">
                   </div>
-                  <div>
-                    <h4 class="article-title-sm"></h4>
-                    <p class="author"></p>
+                  <div class="col">
+                    <div class="card-body pt-0">
+                      <h6 class="card-title article-title-sm"><a href="#">Trump Official Says Plan to Detain Migrant Families Will Deter Immigration</a></h6>
+                      <p class="card-text">The new rule erases the guidelines set by the 1997 Flores Settlement Agreement, which required the government to keep migrant kids in the least restrictive setting possible.</p>
+                    </div>
                   </div>
-                </article>
-                <article class="op-article-4">
-                  <div>
-                    <img src="" alt="">
+                </div>
+              </article>
+              <article class="card border-0">
+                <div class="row no-gutters">
+                  <div class="col-auto">
+                    <img src="https://d.newsweek.com/en/full/1522459/shark-surfers.jpg?w=135&h=90&f=4ce73fc5673b8992faae2b8a1cf54471" alt="N/A">
                   </div>
-                  <div>
-                    <h4 class="article-title-sm"></h4>
-                    <p class="author"></p>
+                  <div class="col">
+                    <div class="card-body pt-0">
+                      <h6 class="card-title article-title-sm"><a href="#">Drone Captures Great White Sharks Circling Oblivious Surfers</a></h6>
+                      <p class="card-text">"I was freaking out. I was like, 'He has no idea there's a shark right next to them," said photographer Matt Larmand.</p>
+                    </div>
                   </div>
-                </article>
-                <article class="op-article-5">
-                  <div>
-                    <img src="" alt="">
-                  </div>
-                  <div>
-                    <h4 class="article-title-sm"></h4>
-                    <p class="author"></p>
-                  </div>
-                </article>
-                <article class="op-article-6">
-                  <div>
-                    <img src="" alt="">
-                  </div>
-                  <div>
-                    <h4 class="article-title-sm"></h4>
-                    <p class="author"></p>
-                  </div>
-                </article>
-              </div>
-            </section>
-<!--      LATEST NEWS            -->
-            <section class="latest-news">
-              <h2 class="section-title"></h2>
-              <div class="container">
-                <article class="lnews-article-1">
-                  <div>
-                    <img src="" alt="">
-                  </div>
-                  <div>
-                    <h4 class="article-title-sm"></h4>
-                  </div>
-                </article>
-                <article class="lnews-article-2">
-                  <div>
-                    <img src="" alt="">
-                  </div>
-                  <div>
-                    <h4 class="article-title-sm"></h4>
-                  </div>
-                </article>
-                <article class="lnews-article-3">
-                  <div>
-                    <img src="" alt="">
-                  </div>
-                  <div>
-                    <h4 class="article-title-sm"></h4>
-                  </div>
-                </article>
-                <article class="lnews-article-4">
-                  <div>
-                    <img src="" alt="">
-                  </div>
-                  <div>
-                    <h4 class="article-title-sm"></h4>
-                  </div>
-                </article>
-                <article class="lnews-article-5">
-                  <div>
-                    <img src="" alt="">
-                  </div>
-                  <div>
-                    <h4 class="article-title-sm"></h4>
-                  </div>
-                </article>
-                <article class="lnews-article-6">
-                  <div>
-                    <img src="" alt="">
-                  </div>
-                  <div>
-                    <h4 class="article-title-sm"></h4>
-                  </div>
-                </article>
-                <article class="lnews-article-7">
-                  <div>
-                    <img src="" alt="">
-                  </div>
-                  <div>
-                    <h4 class="article-title-sm"></h4>
-                  </div>
-                </article>
-              </div>
-            </section>
+                </div>
+              </article>
+            </div>
           </div>
         </div>
-      </div>
+<!--      OPINION             -->
+        <div class="col-12 col-lg-3 bg-info position-relative right-column">
+          <section class="opinion">
+            <h2 class="section-title"></h2>
+            <div class="container">
+              <article class="op-article-1">
+                <div>
+                  <img src="" alt="">
+                </div>
+                <div>
+                  <h4 class="article-title-sm"></h4>
+                  <p class="author"></p>
+                </div>
+              </article>
+              <article class="op-article-2">
+                <div>
+                  <img src="" alt="">
+                </div>
+                <div>
+                  <h4 class="article-title-sm"></h4>
+                  <p class="author"></p>
+                </div>
+              </article>
+              <article class="op-article-3">
+                <div>
+                  <img src="" alt="">
+                </div>
+                <div>
+                  <h4 class="article-title-sm"></h4>
+                  <p class="author"></p>
+                </div>
+              </article>
+              <article class="op-article-4">
+                <div>
+                  <img src="" alt="">
+                </div>
+                <div>
+                  <h4 class="article-title-sm"></h4>
+                  <p class="author"></p>
+                </div>
+              </article>
+              <article class="op-article-5">
+                <div>
+                  <img src="" alt="">
+                </div>
+                <div>
+                  <h4 class="article-title-sm"></h4>
+                  <p class="author"></p>
+                </div>
+              </article>
+              <article class="op-article-6">
+                <div>
+                  <img src="" alt="">
+                </div>
+                <div>
+                  <h4 class="article-title-sm"></h4>
+                  <p class="author"></p>
+                </div>
+              </article>
+            </div>
+          </section>
+<!--      LATEST NEWS            -->
+          <section class="latest-news">
+            <h2 class="section-title"></h2>
+            <div class="container">
+              <article class="lnews-article-1">
+                <div>
+                  <img src="" alt="">
+                </div>
+                <div>
+                  <h4 class="article-title-sm"></h4>
+                </div>
+              </article>
+              <article class="lnews-article-2">
+                <div>
+                  <img src="" alt="">
+                </div>
+                <div>
+                  <h4 class="article-title-sm"></h4>
+                </div>
+              </article>
+              <article class="lnews-article-3">
+                <div>
+                  <img src="" alt="">
+                </div>
+                <div>
+                  <h4 class="article-title-sm"></h4>
+                </div>
+              </article>
+              <article class="lnews-article-4">
+                <div>
+                  <img src="" alt="">
+                </div>
+                <div>
+                  <h4 class="article-title-sm"></h4>
+                </div>
+              </article>
+              <article class="lnews-article-5">
+                <div>
+                  <img src="" alt="">
+                </div>
+                <div>
+                  <h4 class="article-title-sm"></h4>
+                </div>
+              </article>
+              <article class="lnews-article-6">
+                <div>
+                  <img src="" alt="">
+                </div>
+                <div>
+                  <h4 class="article-title-sm"></h4>
+                </div>
+              </article>
+              <article class="lnews-article-7">
+                <div>
+                  <img src="" alt="">
+                </div>
+                <div>
+                  <h4 class="article-title-sm"></h4>
+                </div>
+              </article>
+            </div>
+          </section>
+        </div>
 <!--       NEWSLETTER AD     -->
       <div class="newsletter-ad">
         <div>
@@ -921,5 +925,8 @@
       <footer></footer>
   
   <script src="/js/all.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   </body>
 </html>
