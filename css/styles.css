@@ -1,4 +1,32 @@
-main {
+/* ============================================================== GENERAL ========================================================================= */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bg-or {
+    background-color: #F72210;
+}
+
+.nw-logo-sm {
+    width: 28px;
+}
+
+.nw-logo-xb {
+    height: 90px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 80px;
+    line-height: 85px;
+    letter-spacing: -5px;
+}
+
+
+
+
+/* ============================================================== GENERAL ========================================================================= */
+
+body {
     max-width: 1310px;
 }
 
@@ -6,12 +34,13 @@ main {
     width: 135px;
 }
 
-.nw-logo-sm {
-    width: 28px;
-}
-
 .newsletter-ad {
     width: 300px;
+}
+
+.section-title {
+    color: #030303;
+    opacity: 0.4;
 }
 
 @media screen and (min-width: 1000px) {
