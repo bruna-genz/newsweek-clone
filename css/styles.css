@@ -21,13 +21,43 @@
     letter-spacing: -5px;
 }
 
+@media screen and (max-width: 992px) {
+    .nw-logo-xb {
+        height: 20px;
+        font-size: 25px;
+        line-height: 35px;
+        letter-spacing: -1px;
+    }
+}
 
-
+.section-title {
+    color: #030303;
+    opacity: 0.4;
+}
 
 /* ============================================================== GENERAL ========================================================================= */
 
 body {
     max-width: 1310px;
+}
+
+@media screen and (min-width: 992px) {
+    .nav-bottom::before {
+        width: 85px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        content: "";
+        display: block;
+        background-color: #F72210;
+        border-left: 12px solid white;
+        border-top: 13px solid #F72210;
+    }
+}
+
+.magnifier {
+    left: 70px;
+    color: gray;
 }
 
 .lnews-img {
@@ -36,11 +66,6 @@ body {
 
 .newsletter-ad {
     width: 300px;
-}
-
-.section-title {
-    color: #030303;
-    opacity: 0.4;
 }
 
 @media screen and (min-width: 1000px) {
@@ -66,3 +91,4 @@ body {
     height: 1800px;
     }
 }
+
