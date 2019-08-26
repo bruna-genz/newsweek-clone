@@ -2,6 +2,18 @@ main {
     max-width: 1310px;
 }
 
+.lnews-img {
+    width: 135px;
+}
+
+.nw-logo-sm {
+    width: 28px;
+}
+
+.newsletter-ad {
+    width: 300px;
+}
+
 @media screen and (min-width: 1000px) {
     .left-column,
     .center-column,
