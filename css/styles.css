@@ -96,7 +96,7 @@ body {
     .left-column,
     .center-column,
     .right-column {
-    height: 1800px;
+    height: 1720px;
     }
 }
 
@@ -106,7 +106,8 @@ body {
 }
 
 .culture,
-.culture .card {
+.culture .card,
+.newsletter-ad {
     background-color: #F4F5F7;
 }
 
