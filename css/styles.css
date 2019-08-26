@@ -35,11 +35,19 @@
     opacity: 0.4;
 }
 
-/* ============================================================== GENERAL ========================================================================= */
+html {
+    background-color: #F4F5F7;
+}
 
 body {
     max-width: 1310px;
+    font-size: 15px;
+    line-height: 20px;
+    color: #333333;
 }
+
+
+/* ============================================================== SPECIFIC ========================================================================= */
 
 @media screen and (min-width: 992px) {
     .nav-bottom::before {
@@ -90,5 +98,19 @@ body {
     .right-column {
     height: 1800px;
     }
+}
+
+.center-column::-webkit-scrollbar {
+    width: 0;
+    background: transparent;
+}
+
+.culture,
+.culture .card {
+    background-color: #F4F5F7;
+}
+
+.culture .card-title {
+    font-family: 'Lora', serif;
 }
 
