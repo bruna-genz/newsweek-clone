@@ -9,6 +9,13 @@
     background-color: #F72210;
 }
 
+.culture,
+.culture .card,
+.newsletter-ad,
+.bg-gray {
+    background-color: #F4F5F7;
+}
+
 .nw-logo-sm {
     width: 28px;
 }
@@ -76,42 +83,65 @@ body {
     width: 300px;
 }
 
-@media screen and (min-width: 1000px) {
-    .left-column,
-    .center-column,
-    .right-column {
-    height: 1670px;
-    }
-}
-
-@media screen and (min-width: 992px) {
-    .left-column,
-    .center-column,
-    .right-column {
-    height: 1620px;
-    }
-}
-
-@media screen and (min-width: 768px) {
-    .left-column,
-    .center-column,
-    .right-column {
-    height: 1720px;
-    }
-}
-
 .center-column::-webkit-scrollbar {
     width: 0;
     background: transparent;
-}
-
-.culture,
-.culture .card,
-.newsletter-ad {
-    background-color: #F4F5F7;
 }
 
 .culture .card-title {
     font-family: 'Lora', serif;
 }
 
+/* ================= Heigt of main articles =================== */
+@media screen and (max-width: 2100px) {
+    .left-column,
+    .center-column,
+    .right-column {
+    height: 1900px;
+    }
+}
+
+@media screen and (max-width: 1090px) {
+    .left-column,
+    .center-column,
+    .right-column {
+    height: 2000px;
+    }
+}
+
+@media screen and (max-width: 1060px) {
+    .left-column,
+    .center-column,
+    .right-column {
+    height: 2050px;
+    }
+}
+
+@media screen and (max-width: 1030px) {
+    .left-column,
+    .center-column,
+    .right-column {
+    height: 2100px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .left-column,
+    .center-column {
+    height: 1900px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .right-column {
+    height: auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .left-column,
+    .center-column,
+    .right-column {
+    height: auto;
+    }
+}
