@@ -108,6 +108,18 @@ body {
     font-family: 'Lora', serif;
 }
 
+.second-img {
+    top: 13px;
+    left: 80px;
+}
+
+.img-background {
+    background-image: url("https://g.newsweek.com/themes/newsweek/images/subscribe-img2.gif");
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 48%;
+    max-width: 191px;
+}
 /* ================= Heigt of main articles =================== */
 @media screen and (max-width: 2100px) {
     .left-column,
