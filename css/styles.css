@@ -144,7 +144,9 @@ footer {
   width: 48%;
   max-width: 191px;
 }
+
 /* ================= Heigt of main articles =================== */
+
 @media screen and (max-width: 2100px) {
   .left-column,
   .center-column,
