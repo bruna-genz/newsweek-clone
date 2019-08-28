@@ -78,6 +78,10 @@ footer {
   font-size: 14px;
 }
 
+.social-media a {
+  font-size: 26px;
+}
+
 .or-hover > a {
   color: #030303;
 }
@@ -140,11 +144,6 @@ footer {
   width: 48%;
   max-width: 191px;
 }
-
-.social-media a {
-  font-size: 26px;
-}
-
 /* ================= Heigt of main articles =================== */
 @media screen and (max-width: 2100px) {
   .left-column,
