@@ -20,6 +20,15 @@
     width: 28px;
 }
 
+.nw-logo-md {
+    height: 30px;
+    font-size: 45px;
+    font-family: 'Roboto Slab', serif;
+    letter-spacing: -3px;
+    color: #F72210;
+    font-weight: 900;
+}
+
 .nw-logo-xb {
     height: 90px;
     font-family: 'Roboto Slab', serif;
@@ -120,6 +129,11 @@ footer {
     width: 48%;
     max-width: 191px;
 }
+
+.social-media a {
+    font-size: 26px;
+}
+
 /* ================= Heigt of main articles =================== */
 @media screen and (max-width: 2100px) {
     .left-column,
