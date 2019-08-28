@@ -1,202 +1,200 @@
 /* ============================================================== GENERAL ========================================================================= */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .bg-or {
-    background-color: #F72210;
+  background-color: #f72210;
 }
 
 .culture,
 .culture .card,
 .newsletter-ad,
 .bg-gray {
-    background-color: #F4F5F7;
+  background-color: #f4f5f7;
 }
 
 .nw-logo-sm {
-    width: 28px;
+  width: 28px;
 }
 
 .nw-logo-md {
-    height: 30px;
-    font-size: 45px;
-    font-family: 'Roboto Slab', serif;
-    letter-spacing: -3px;
-    color: #F72210;
-    font-weight: 900;
+  height: 30px;
+  font-size: 45px;
+  font-family: "Roboto Slab", serif;
+  letter-spacing: -3px;
+  color: #f72210;
+  font-weight: 900;
 }
 
 .nw-logo-xb {
-    height: 90px;
-    font-family: 'Roboto Slab', serif;
-    font-size: 80px;
-    line-height: 85px;
-    letter-spacing: -5px;
+  height: 90px;
+  font-family: "Roboto Slab", serif;
+  font-size: 80px;
+  line-height: 85px;
+  letter-spacing: -5px;
 }
 
 @media screen and (max-width: 992px) {
-    .nw-logo-xb {
-        height: 20px;
-        font-size: 25px;
-        line-height: 35px;
-        letter-spacing: -1px;
-    }
+  .nw-logo-xb {
+    height: 20px;
+    font-size: 25px;
+    line-height: 35px;
+    letter-spacing: -1px;
+  }
 }
 
 .section-title {
-    color: #030303;
-    opacity: 0.4;
+  color: #030303;
+  opacity: 0.4;
 }
 
 html {
-    background-color: #F4F5F7;
+  background-color: #f4f5f7;
 }
 
 body {
-    max-width: 1310px;
-    font-size: 15px;
-    line-height: 20px;
-    color: #333333;
+  max-width: 1310px;
+  font-size: 15px;
+  line-height: 20px;
+  color: #333333;
 }
 
 .logo-slide::after {
-    border-bottom: 3px solid #F72210;
-    border-right: 3px solid #F72210;
-    display: block;
-    content: "";
-    width: 26px;
-    height: 25px;
-    position: absolute;
-    bottom: -4px;
-    right: -4px;
+  border-bottom: 3px solid #f72210;
+  border-right: 3px solid #f72210;
+  display: block;
+  content: "";
+  width: 26px;
+  height: 25px;
+  position: absolute;
+  bottom: -4px;
+  right: -4px;
 }
 
 footer {
-    font-size: 14px;
+  font-size: 14px;
 }
 
 .or-hover > a {
-    color: #030303;
+  color: #030303;
 }
 
 .or-hover > a:hover {
-    color: #F72210;
+  color: #f72210;
 }
 
 .or-underline > a:hover {
-    text-decoration-color: #F72210;
+  text-decoration-color: #f72210;
 }
-
-
 
 /* ============================================================== SPECIFIC ========================================================================= */
 
 @media screen and (min-width: 992px) {
-    .nav-bottom::before {
-        width: 85px;
-        position: absolute;
-        top: 0;
-        right: 0;
-        content: "";
-        display: block;
-        background-color: #F72210;
-        border-left: 12px solid white;
-        border-top: 13px solid #F72210;
-    }
+  .nav-bottom::before {
+    width: 85px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    content: "";
+    display: block;
+    background-color: #f72210;
+    border-left: 12px solid white;
+    border-top: 13px solid #f72210;
+  }
 }
 
 .magnifier {
-    left: 70px;
-    color: gray;
+  left: 70px;
+  color: gray;
 }
 
 .lnews-img {
-    width: 135px;
+  width: 135px;
 }
 
 .newsletter-ad {
-    width: 300px;
+  width: 300px;
 }
 
 .center-column::-webkit-scrollbar {
-    width: 0;
-    background: transparent;
+  width: 0;
+  background: transparent;
 }
 
 .culture .card-title {
-    font-family: 'Lora', serif;
+  font-family: "Lora", serif;
 }
 
 .second-img {
-    top: 13px;
-    left: 80px;
+  top: 13px;
+  left: 80px;
 }
 
 .img-background {
-    background-image: url("https://g.newsweek.com/themes/newsweek/images/subscribe-img2.gif");
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 48%;
-    max-width: 191px;
+  background-image: url("https://g.newsweek.com/themes/newsweek/images/subscribe-img2.gif");
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 48%;
+  max-width: 191px;
 }
 
 .social-media a {
-    font-size: 26px;
+  font-size: 26px;
 }
 
 /* ================= Heigt of main articles =================== */
 @media screen and (max-width: 2100px) {
-    .left-column,
-    .center-column,
-    .right-column {
+  .left-column,
+  .center-column,
+  .right-column {
     height: 1900px;
-    }
+  }
 }
 
 @media screen and (max-width: 1090px) {
-    .left-column,
-    .center-column,
-    .right-column {
+  .left-column,
+  .center-column,
+  .right-column {
     height: 2000px;
-    }
+  }
 }
 
 @media screen and (max-width: 1060px) {
-    .left-column,
-    .center-column,
-    .right-column {
+  .left-column,
+  .center-column,
+  .right-column {
     height: 2050px;
-    }
+  }
 }
 
 @media screen and (max-width: 1030px) {
-    .left-column,
-    .center-column,
-    .right-column {
+  .left-column,
+  .center-column,
+  .right-column {
     height: 2100px;
-    }
+  }
 }
 
 @media screen and (max-width: 992px) {
-    .left-column,
-    .center-column {
+  .left-column,
+  .center-column {
     height: 1900px;
-    }
+  }
 }
 
 @media screen and (max-width: 992px) {
-    .right-column {
+  .right-column {
     height: auto;
-    }
+  }
 }
 
 @media screen and (max-width: 768px) {
-    .left-column,
-    .center-column,
-    .right-column {
+  .left-column,
+  .center-column,
+  .right-column {
     height: auto;
-    }
+  }
 }
