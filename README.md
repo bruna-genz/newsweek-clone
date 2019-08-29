@@ -6,4 +6,6 @@ This page was created using:
 * HTML;
 * CSS;
 
+[Live version](https://bruna-genz.github.io/newsweek-clone/).
+
 Created by [Bruna Genz](https://github.com/bruna-genz).
